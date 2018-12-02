@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Song Request List</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/> <!--declaring all the files being used in the program -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!--used bootstrap for a few styling purposes in the site -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Virtual Song Request List</h1><!--main heading of the website-->
+            </div>
+        </div>
+
+        <div class="addSong" id="addSong"> <!--my class and id tags for the song request name header-->
+            <h3>Add Song Request</h3>
+        </div>
+
+            <section id="request"> <!--set my id for the section of html that creates the inputs and add button -->
+                <form>
+                    <input type="text" id="artistname" placeholder="Artist Name" /><!--each text box has a placeholder name inside of it -->
+                    <input type="text" id="songname" placeholder="Song Name" />
+                    <input type="button" class="add" id="add" value="Add Song" /> <!--created my "add" button which will save the entry to the list -->
+                </form>
+            </section>
+        <div class="container"> <!--with bootstrap I am able to create a container for my actual list and style it with a border in css -->
+        <div class="songRequest" id="songRequest"><!-- class and ID for the title of my actual List-->
+            <h3>Song Request Queue</h3>
+        </div>
+        <section id="mainList" class="col-lg-7 col-sm-10 col-xs-12">
+            <ol class="list"> <!--my actual list where each entry will fall into. I created a check box to the left of each entry to verify that the song was played as well as a delete button on the right to remove it from the list -->
+                <li><input type="checkbox" class="songPlayed" />Luis Fonzi - Despacito <button class="delete" id="delete">Delete</button></li>
+            </ol>
+        </section>
+        </div>
+    </body>
+</html>

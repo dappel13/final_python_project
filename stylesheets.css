@@ -1,0 +1,50 @@
+h1{
+    text-align: center !important;
+    border: none !important;
+    font-weight: bold !important;
+    color: orange !important;
+    font-family: fantasy !important;
+}
+
+#addSong{
+    text-align: center !important;
+    border: none !important;
+    color: white !important;
+    font-family:sans-serif !important;
+}
+
+#request{
+    text-align: center !important;
+    border: none !important;
+    color: black !important;
+
+}
+
+#songRequest{
+    border: none !important;
+    color: hotpink !important;
+    font-weight: bolder !important;
+    font-style: oblique !important;
+}
+
+.delete{
+    color: black !important;
+    border: none !important;
+}
+
+
+.container{
+    border: none !important;
+    padding: 5px !important;
+    border: 3px solid green !important;
+    width: 800px !important;
+    margin-left: 100px !important;
+    margin-top: 20px !important;
+}
+
+.list{
+    border: none !important;
+    color: orange !important;
+}
+
+
